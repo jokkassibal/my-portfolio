@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2020-1M.css">
+    <title>진짜일 듯</title>
+</head>
+<header>
+    <nav>
+        <a href="./메인페이지.html" id="logo">
+            최지온(목표)
+        </a>
+        <a href="./2020-1M.html"> <br> 2020-1M</a>
+        <a href="./2020-2M.html">2020-2M</a>
+        <a href="./2020-3M.html">2020-3M</a>
+        <a href="./2020-4M.html">2020-4M</a>
+    </nav>
+</header>
+
+<body>
+
+
+
+
+
+
+
+
+
+    <div class="container2">
+        <p id="introduceB">
+            <strong>문제정의</strong> <br> <br> 세상에 있는 진짜 문제를 찾아 <br> 문제를 세분화시켜 자세히 정의하고 <br> 해결까지 해보는 팀 프로젝트
+        </p>
+        <p id="buttonB-1"><img src="btn_prev.png" width="50"></p>
+        <p id="buttonB-2"><img src="btn_next.png" width="50"></p>
+
+        <div class="big-slideB">
+            <div id="slideB">
+                <!-- <div class="slideB-1">
+                    <p id="introduceB-1">처음으로 저희 팀은 쓰레기 무단투기를<br> 주제로 잡았습니다. </p> -->
+                <div id="M1-4"><img src="4모듈 주제수업1.PNG" width="470" height="265"></div>
+                <!-- <div class="slideB-2">
+                        <p id="introduceB-2"> 그 다음에는 근본적인 문제를 <br>찾아보았습니다. </p> -->
+                <div id="M1-5"><img src="3모듈 주제수업2.PNG" width="470" height="265">
+                </div>
+                <!-- <div class="slideB-3">
+                            <p id="introduceB-3"> 마지막에는 최종정의한 문제를 해결할 <br>수 있는 솔루션을 만들었습니다. </p> -->
+                <div id="M1-6"><img src="3모듈 주제수업3.PNG" width="470" height="265"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var a = 0
+        document.querySelector('#buttonB-2').addEventListener('click', function () {
+            a = a - 470
+            document.querySelector('#slideB').style.transform = 'translate(' + a + 'px)';
+        })
+        document.querySelector('#buttonB-1').addEventListener('click', function () {
+            a = a + 470
+            document.querySelector('#slideB').style.transform = 'translate(' + a + 'px)';
+        })
+
+    </script>
+</body>
+<footer>
+    <p id="footer">
+        최지온(목표) : zioncoon2005@gmail.com
+        <br> 학교 주소 : 서울특별시 종로구 대학로 116 공공일호 4층 거꾸로캠퍼스
+    </p>
+</footer>
+
+</html>

@@ -1,0 +1,158 @@
+body{
+    background-color: antiquewhite;
+}   
+#logo {
+    position: absolute;
+    top: 7%;
+    left: 7%;
+}
+
+
+nav{ 
+    width: 100%;
+    height: 130px;
+    font-size: 30px;
+    border: black solid 2px;
+    text-align: center;
+    word-spacing: 50px; 
+}
+
+
+.container1 {
+    border: 1px solid black;
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 300px;
+}
+
+#buttonA-1 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 115%;
+    left: 2%;
+}
+#buttonA-1:hover {
+    background-color: rgb(117, 115, 115);
+}
+#buttonA-2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 115%;
+    left: 27.5%;
+}
+#buttonA-2:hover {
+    background-color: rgb(117, 115, 115);
+}
+.big-slideA {
+    overflow: hidden;
+    width: 450px;
+} 
+#slideA{
+    width: 200px;
+    display: flex;
+    margin-left: 0px;
+    margin-top: 5px;
+    transform: translate(0px);
+    transition: transform 0.5s;
+}
+.slideA-1{
+    display: flex;
+}
+
+
+.container2 {
+    border: 1px solid black;
+    width: 470px;
+    height: 500px;
+    position: absolute;
+    text-align: center;
+    left: 34%;
+    top: 440px;
+}
+#buttonB-1 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 78%;
+    left: 1%;
+}
+#buttonB-1:hover {
+    background-color: rgb(65, 62, 62);
+}
+#buttonB-2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 78%;
+    left: 88%;
+}
+#buttonB-2:hover {
+    background-color: rgb(65, 62, 62);
+}
+.big-slideB {
+    overflow: hidden;
+    width: 470px;
+} 
+#slideB{
+    width: 600px;
+    display: flex;
+    margin-left: 0px;
+    margin-top: 1px;
+    transform: translate(0px);
+    transition: transform 0.5s;
+}
+.container3 {
+    border: 1px solid black;
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    text-align: center;
+    top: 0.01px;
+    left: 110%;
+}
+#buttonC-1 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 78%;
+    left: 1%;
+}
+#buttonC-1:hover {
+    background-color: rgb(65, 62, 62);
+}
+#buttonC-2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 78%;
+    left: 88%;
+}
+#buttonC-2:hover {
+    background-color: rgb(65, 62, 62);
+}
+.big-slideC {
+    overflow: hidden;
+    width: 450px;
+} 
+#slideC {
+    width: 600px;
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0px;
+    transform: translate(0px);
+    transition: transform 0.5s;
+}
+footer{
+    width: 1499px;
+    padding: 10px;
+    background-color: #6799a3;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 150%;
+    left: -230%;
+}
