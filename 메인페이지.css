@@ -19,6 +19,7 @@ nav{
 #me {
     width: 400px;
     height: 400px;
+    border-radius: 100%;
     margin-top: 12%;
     margin-left: 10%;
 }
@@ -29,7 +30,7 @@ nav{
     font-size: 20px;
     text-align: center;
     margin-left: 40%;
-    margin-top: -20%;
+    margin-top: -24%;
 }
 #inner-introduce {
     color: gray;
